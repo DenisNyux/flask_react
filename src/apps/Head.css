@@ -1,0 +1,61 @@
+.head {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    justify-self: center;
+    align-items: center;
+    margin-left: 2%;
+    margin-right: 10%;
+    margin-top: 3%;
+    height: 5%;
+    margin-bottom: 3%;
+}
+
+.logo {
+    display: flex;
+    justify-self: flex-start;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+}
+
+.logo img {
+    width: 200px;
+    height: 200px;
+}
+
+.head p {
+    font-family: 'Open Sans';
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    color: #212121;
+}
+
+.nav-element {
+    display: flex;
+    flex-flow: row wrap;
+    width: 50%;
+    justify-content: space-between;
+    font-family: 'Open Sans';
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: lighter;
+    letter-spacing: 0.05em;
+    color: #212121;
+}
+
+.nav-element a {
+    font-family: 'Open Sans';
+    color: #212121;
+}
+
+.search {
+    font-family: 'Open Sans';
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    color: #212121
+}
