@@ -1,0 +1,25 @@
+.all_about {
+    display: flex;
+    justify-content: center;
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 80%;
+    background-color: rgb(228, 228, 228);
+    font-family: 'Open Sans';
+    border: solid 1px rgb(155, 154, 154);
+    border-radius: 30px 30px;
+    margin: 10px;
+}
+
+.desc_area {
+    font-family: 'Open Sans';
+}
+
+.about img {
+    width: 400px;
+    height: 500px ;
+}
