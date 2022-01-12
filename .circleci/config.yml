@@ -13,9 +13,9 @@ jobs:
     steps:
       - checkout
       - node/install-packages:
-          pkg-manager: npm
+          pkg-manager: yarn
       - run:
-          command: npm run-script build
+          command: yarn react-scripts build
           name: Build app
       # - run:
       #     command: yarn serve -s build
