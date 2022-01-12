@@ -14,12 +14,12 @@ jobs:
       - checkout
       - node/install-packages:
           pkg-manager: yarn
-      - run:
-          command: yarn react-scripts build
-          name: Build app
-      - run:
-          command: yarn serve -s build
-          name: Serve app
+      # - run:
+      #     command: yarn react-scripts build
+      #     name: Build app
+      # - run:
+      #     command: yarn serve -s build
+      #     name: Serve app
 
  
 # Invoke jobs via workflows
