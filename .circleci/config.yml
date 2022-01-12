@@ -14,7 +14,6 @@ jobs:
       - checkout
       - node/install-packages:
           pkg-manager: yarn
-      # раскомменть если надо показать
       # - run:
       #     command: yarn react-scripts build
       #     name: Build app
