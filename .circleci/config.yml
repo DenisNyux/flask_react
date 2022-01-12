@@ -15,7 +15,7 @@ jobs:
       - node/install-packages:
           pkg-manager: yarn
       - run:
-          command: yarn start
+          command: yarn build
           name: Build app
       # - run:
       #     command: yarn serve -s build
